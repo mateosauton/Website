@@ -18,6 +18,22 @@
             padding: 1em 0;
             text-align: center;
         }
+        nav {
+            background-color: #34495e;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
         main {
             padding: 2em;
         }
@@ -49,6 +65,25 @@
         .section-title {
             color: #2980b9;
         }
+        .intro {
+            text-align: center;
+            padding: 2em 0;
+        }
+        .intro img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            margin-bottom: 1em;
+        }
+        .intro p {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .summary {
+            text-align: center;
+            margin: 2em 0;
+        }
     </style>
 </head>
 <body>
@@ -56,41 +91,47 @@
         <h1>Mateo Sauton</h1>
         <p>Chief Technology Officer at N1U</p>
     </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#resume">Resume</a>
+        <a href="#certificates">Certificates</a>
+    </nav>
     <main>
-        <section>
+        <section id="home" class="intro">
+            <img src="A_professional_image_representing_a_product_manage.png" alt="Product Manager">
+            <p>Leading Innovation in Fintech and Blockchain - Achieving Greatness Through Expertise and Passion.</p>
+        </section>
+        <section id="summary" class="summary">
+            <h2 class="section-title">Professional Summary</h2>
+            <p>As a dedicated and innovative professional with extensive experience in product management and telecommunications engineering, I have successfully led projects in the fintech and blockchain sectors. My work at N1U, Agrotoken, and Everis has been driven by a passion for technological advancement and user-focused solutions.</p>
+        </section>
+        <section id="about">
             <h2 class="section-title">About Me</h2>
-            <p>Hi, I'm Mateo Sauton, the CTO at N1U, a startup focused on building a digital wallet for gamers. I have a strong background in product management, telecommunications engineering, and quantum physics.</p>
-        </section>
-        <section>
-            <h2 class="section-title">Experience</h2>
-            <h3>CTO at N1U (2023 - Present)</h3>
+            <p>Hi, I'm Mateo Sauton, the CTO at N1U, a startup focused on building a digital wallet for gamers. I have a strong background in product management, telecommunications engineering, and quantum physics. Here's a detailed look at my journey:</p>
+            <h3>2023 - Present: CTO at N1U</h3>
             <p>Leading the development of scalable and secure fintech solutions, and managing an interdisciplinary user/product-focused team.</p>
-            <h3>Product Manager at Agrotoken (2021 - 2023)</h3>
+            <h3>2021 - 2023: Product Manager at Agrotoken</h3>
             <p>Led project management for a stablecoin application, wallet app, and credit card, utilizing Algorand/Ethereum/Polygon blockchain technologies.</p>
-            <h3>RPA Senior Engineer at Everis (2019 - 2021)</h3>
+            <h3>2019 - 2021: RPA Senior Engineer at Everis</h3>
             <p>Certified Automation Anywhere Master Professional, experienced in Agile and Scrum methodologies.</p>
-            <h3>Teacher Assistant at Universidad Nacional de San Martin (2018 - 2021)</h3>
+            <h3>2018 - 2021: Teacher Assistant at Universidad Nacional de San Martin</h3>
             <p>Assisted in the Informatics course for engineers, specializing in C programming on Ubuntu.</p>
+            <h3>2016 - 2023: Telecommunications Engineering Student</h3>
+            <p>Universidad Nacional de San Martin</p>
         </section>
-        <section>
-            <h2 class="section-title">Education</h2>
-            <p>Telecommunications Engineering, Universidad Nacional de San Martin (2016 - 2023)</p>
-            <p>Secondary Bilingual Title, Colegio Bede's Grammar School (2015)</p>
-            <p>Machine Learning with Python, various libraries (Pandas, Keras, Numpy, SKLearn, Scipy)</p>
+        <section id="resume">
+            <h2 class="section-title">Resume</h2>
+            <p>Download my resume <a href="Mateo_Sauton_CV.pdf" download>here</a>.</p>
         </section>
-        <section>
-            <h2 class="section-title">Skills</h2>
-            <p>Embedded systems, relational databases (SQL), microcontroller programming, DevOps (GNU/Linux, Docker, Ansible).</p>
+        <section id="certificates">
+            <h2 class="section-title">Certificates</h2>
+            <p>Here are my certifications in product management and engineering:</p>
+            <!-- Add a detailed list of certificates here based on your LinkedIn profile -->
         </section>
     </main>
     <footer>
-        <h2>Contact</h2>
-        <div class="contact-info">
-            <p>Email: <a href="mailto:sautonmateo@gmail.com">sautonmateo@gmail.com</a></p>
-            <p>Cell Phone: +54 911 53337487</p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/mateo" target="_blank">linkedin.com/in/mateo</a></p>
-            <p>Instagram: <a href="https://www.instagram.com/mateo" target="_blank">instagram.com/mateo</a></p>
-        </div>
+        <p>&copy; 2024 Mateo Sauton</p>
     </footer>
 </body>
 </html>
