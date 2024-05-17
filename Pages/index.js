@@ -13,7 +13,7 @@ export default function Home() {
 
       <header className={styles.header}>
         <h1>Mateo Sauton</h1>
-        <p>Chief Technology Officer at N1U</p>
+        <p>Chief Technology Officer at n1u</p>
       </header>
 
       <nav className={styles.nav}>
@@ -31,7 +31,7 @@ export default function Home() {
 
         <section className={styles.summary}>
           <h2>Professional Summary</h2>
-          <p>As a dedicated and innovative professional with extensive experience in product management and telecommunications engineering, I have successfully led projects in the fintech and blockchain sectors. My work at N1U, Agrotoken, and Everis has been driven by a passion for technological advancement and user-focused solutions.</p>
+          <p>As a dedicated and innovative professional with extensive experience in product management and telecommunications engineering, I have successfully led projects in the fintech and blockchain sectors. My work at n1u, Agrotoken, and Everis has been driven by a passion for technological advancement and user-focused solutions.</p>
         </section>
       </main>
 
